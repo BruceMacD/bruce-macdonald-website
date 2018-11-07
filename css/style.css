@@ -1,0 +1,166 @@
+body {
+    line-height: 1;
+    background-color: #071f6e;
+    font: normal 75% Arial, Helvetica, sans-serif;    
+}
+
+canvas {
+    display: block;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    width:10%;
+    height:10%;
+    margin-top: 20%;
+    white-space: nowrap;
+}
+
+.links a {
+    margin-right: 120%;
+    line-height: 0; 
+    font-size: 0;
+    color: transparent; 
+}
+
+.about {
+    width:5%;
+    height:5%;
+    margin-left: 48.3%;
+}
+
+/* about text */
+.about .abouttext {
+    visibility: hidden;
+    width: 60%;
+    margin-left: -155px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.about:hover .abouttext {
+    visibility: visible;
+}
+
+.panel {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+	max-width: 90%;
+	padding: 2em 3em;
+}
+
+.panel h1 {
+    font-size: 4em;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.panel h2 {
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(221, 220, 220);
+    line-height: 1.3em
+}
+
+/* ---- mobile device support ---- */
+
+@media (max-width: 600px) {
+    body {
+        font: normal 100% Arial, Helvetica, sans-serif;
+    }
+
+    /* .panel {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 1em;
+        position: absolute;
+        z-index: 10;
+        margin: -300px 0 0 -200px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        z-index: 100
+    } */
+
+    .panel {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 1.3em;
+        position: absolute;
+        z-index: 10;
+        top: 40%;
+        right: 50%;
+        transform: translate(50%,-50%);
+	    max-width: 90%;
+	    padding: 2em 3em;
+    }
+    
+    .panel h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    .panel h2 {
+        font-weight: 400;
+        font-size: 1.3em;
+        text-align: center;
+        color: rgb(221, 220, 220);
+        line-height: 0.5em
+    }
+
+    .about {
+        width:7%;
+        height:7%;
+        margin-left: 48.3%;
+    }
+    
+    /* .links {
+        width:5%;
+        height:5%;
+        white-space: normal;
+    }
+
+    .links a {
+        margin-bottom: 55%;
+        margin-left: 400%;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 1em;
+        line-height: 1em; 
+        white-space: nowrap;
+        color: rgb(255, 255, 255);
+    } */
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #071f6e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
