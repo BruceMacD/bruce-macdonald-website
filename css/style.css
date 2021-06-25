@@ -2,6 +2,7 @@ body {
     line-height: 1;
     background-color: #071f6e;
     font: normal 75% Arial, Helvetica, sans-serif;    
+    overflow: hidden; /* Hide scrollbars */
 }
 
 canvas {
