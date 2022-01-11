@@ -1,6 +1,6 @@
 body {
     line-height: 1;
-    background-color: #071f6e;
+    background-color: #232b2b;
     font: normal 75% Arial, Helvetica, sans-serif;    
     overflow: hidden; /* Hide scrollbars */
 }
@@ -92,17 +92,6 @@ a {
         font: normal 100% Arial, Helvetica, sans-serif;
     }
 
-    /* .panel {
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 1em;
-        position: absolute;
-        z-index: 10;
-        margin: -300px 0 0 -200px;
-        border-radius: 4px;
-        box-sizing: border-box;
-        z-index: 100
-    } */
-
     .panel {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 1.3em;
@@ -136,22 +125,6 @@ a {
         height:7%;
         margin-left: 48.3%;
     }
-    
-    /* .links {
-        width:5%;
-        height:5%;
-        white-space: normal;
-    }
-
-    .links a {
-        margin-bottom: 55%;
-        margin-left: 400%;
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 1em;
-        line-height: 1em; 
-        white-space: nowrap;
-        color: rgb(255, 255, 255);
-    } */
 }
 
 /* ---- particles.js container ---- */
@@ -160,7 +133,7 @@ a {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #071f6e;
+    background-color: #232b2b;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
